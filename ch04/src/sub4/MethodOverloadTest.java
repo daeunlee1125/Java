@@ -13,11 +13,14 @@ public class MethodOverloadTest {
 		int r2 = add(2, 3);
 		double r3 = add(1.2, 3.14);
 		String r4 = add("Hello", "Java");
+		String r5 = add("number_", 1);
 		
 		System.out.println("r1 : "+a[4]);
 		System.out.println("r2 : "+r2);
 		System.out.println("r3 : "+r3);
 		System.out.println("r4 : "+r4);
+		System.out.println("r5 : "+r5);
+		
 		
 	}
 	
@@ -34,6 +37,10 @@ public class MethodOverloadTest {
 		return a+b;
 	}
 	public static String add(String a, String b) {
+		return a+b;
+	}
+	
+	public static String add(String a, int b) {
 		return a+b;
 	}
 }
