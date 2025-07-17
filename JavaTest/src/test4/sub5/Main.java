@@ -3,22 +3,22 @@ package test4.sub5;
 public class Main {
 	public static void main(String[] args) {
 		
-		// 과목 생성
+		// 과목 등록
 		Subject java = new Subject("자바");
 		Subject database = new Subject("데이터베이스");
 		Subject algo = new Subject("알고리즘");
 		
-		// 학생 생성
+		// 학생 등록
 		Student student1 = new Student("김유신", "S001");
 		Student student2 = new Student("김춘추", "S002");
 		
-		// 학생1 과목 수강 신청
+		// 학생1 수강 신청
 		student1.enrollSubject(java);
 		student1.enrollSubject(database);
 		student1.enrollSubject(algo);
 		System.out.println("--------------------");
 		
-		// 학생2 과목 수강 신청
+		// 학생2 수강 신청
 		student2.enrollSubject(java);
 		student2.enrollSubject(database);
 		System.out.println("--------------------");
