@@ -31,9 +31,9 @@ public class StaticTest {
 	public static void main(String[] args) {
 		
 		//클래스 변수 (정적변수) 실습
-		Increment inc1 = new Increment();
-		Increment inc2 = new Increment();
-		Increment inc3 = new Increment();
+		//Increment inc1 = new Increment();
+		//Increment inc2 = new Increment();
+		//Increment inc3 = new Increment();
 		
 		Car sonata = new Car("소나타", "흰색", 0);
 		Car avante = new Car("아반테", "검은색", 0);
