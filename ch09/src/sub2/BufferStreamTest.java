@@ -15,7 +15,6 @@ import java.io.IOException;
 public class BufferStreamTest {
 	public static void main(String[] args) {
 		
-		// 기본 스트림 생성 (파일 연결) //
 		String source = "C:\\Users\\GGG\\Desktop\\Person.tif";
 		String target = "C:\\Users\\GGG\\Desktop\\Person2.tif";
 				
