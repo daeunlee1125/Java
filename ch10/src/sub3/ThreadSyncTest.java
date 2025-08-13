@@ -27,4 +27,8 @@ public class ThreadSyncTest {
 		
 		System.out.println("최종 결과 : " + count.getNum());
 	}
+	>> 스레드끼리 자원 접근 충돌 일어나지 않아, 정상적으로 300 출력
+	>> 동기화 안 해주면, 동시에 count++에 접근하면서
+	하나의 동작으로 처리될 위험 케이스 O
+	그래서 가끔씩 300보다 낮은 수가 출력된다!
 }
